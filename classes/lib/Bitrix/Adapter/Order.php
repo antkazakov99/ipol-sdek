@@ -385,6 +385,7 @@ class Order
                         switch ($orderParams['NDSDelivery']){
                             case 'VAT10' : $priceDeliveryVAT = 10; break;
                             case 'VAT12' : $priceDeliveryVAT = 12; break;
+                            case 'VAT18' : $priceDeliveryVAT = 18; break;
                             case 'VAT20' : $priceDeliveryVAT = 20; break;
                             case 'VATX'  : $priceDeliveryVAT = null; break;
                             case 'VAT0'  :
@@ -508,6 +509,7 @@ class Order
                             switch ($arGood["VATRate"]){
                                 case 'VAT10' : $goodVR = 10; break;
                                 case 'VAT12' : $goodVR = 12; break;
+                                case 'VAT18' : $goodVR = 18; break;
                                 case 'VAT20' : $goodVR = 20; break;
                                 case 'VATX'  : $goodVR = null; break;
                                 case 'VAT0'  :
@@ -543,6 +545,7 @@ class Order
                         switch ($arGood["VATRate"]){
                             case 'VAT10' : $goodVR = 10; break;
                             case 'VAT12' : $goodVR = 12; break;
+                            case 'VAT18' : $goodVR = 18; break;
                             case 'VAT20' : $goodVR = 20; break;
                             case 'VATX'  : $goodVR = null; break;
                             case 'VAT0'  :
